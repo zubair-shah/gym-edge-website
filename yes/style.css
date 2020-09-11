@@ -1,0 +1,912 @@
+
+*{
+padding:0;
+margin:0;
+}
+
+body{
+    color: rgb(51 51 51);
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.sec-padding{
+    padding:80px 0;
+}
+.clearfix{
+    content:'';
+    display:table;
+}
+
+/* topheader */
+
+.headertop{
+    padding: 10px 0;
+      background-color: rgb(34 34 34);
+
+}
+.information i{
+  color: orangered;
+  padding-right: 10px;
+  
+}
+.seperator{
+    border-left: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+.information{
+    display: flex;
+    width: 35%;
+    float: left;
+    font-family: arial;
+    font-weight: 400;
+    font-size: small;
+
+}
+.information a{
+    color: papayawhip;
+    text-decoration: none;
+}
+.information a:hover{
+    text-decoration: underline;
+}
+.social-icons{
+    width: 63%;
+  display: flex;
+    justify-content: flex-end;
+    font-family: arial;
+    font-weight: 400;
+    font-size: small;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: papayawhip;
+    padding-left: 15px;
+}
+.social-icons a:hover{
+    text-decoration: underline;
+}
+.social-icons i{
+    color: white;
+    padding-right: 10px;
+}
+.social-icons i:hover{
+    color: orangered;
+    cursor: pointer;
+    transition: all .3s ease 0s
+}
+
+/* headerbottom */
+
+.headerbottom{
+    background-color: rgb(255 255 255);
+    border-bottom: 2px solid orangered
+
+}
+.headerbottom a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size:small;
+    font-weight: 500;
+}
+
+.logo{
+    display: flex;
+    width: 20%;
+    float: left;
+    padding: 15px 0px;
+}
+.headerbottomcontent{
+    float: left;
+    width: 73%
+}
+
+.headerbottom-ul{
+    display: flex;
+    justify-content: flex-end;
+    /* float: left; */
+    /* padding-left: 100px;*/
+}
+
+.headerbottom-ul li{
+    list-style-type: none;
+    line-height: 70px;
+    padding-right: 25px;
+
+}
+.headerbottom-ul a{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(51 51 51);
+}
+.headerbottom-ul a:hover{
+    color: orangered;
+    transition: all .3s ease 0s
+}
+.searchicon{
+    width: 5%;
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    /* font-family: arial; */
+    /* font-weight: 400; */
+    font-size: 16px;
+    margin-top: 25px;
+      
+}
+.fa-search{
+    color: orangered;
+    cursor: pointer;
+}
+#banner{
+    background-image: url(images/banner1\ background.jpg);
+    width: 100%;
+    background-size: cover;
+}
+#banner img{
+    width: 75%;
+    height: 600px;
+}
+
+.trainer1{
+    /* background-repeat: no-repeat; */
+    width: 48%;
+    /* background-image: url(images/trainer\ in\ banner1.png); */
+    float: left;
+    text-align: right;
+    /* border: 2px solid rgb(255 0 0);
+    height: 657px; */
+
+}
+.content-trainer-1{
+    /* padding-top: 98px;
+    line-height: 29px; */
+    width: 48%;
+    float: right;
+    /* border: 2px solid rgb(255 0 0);
+    margin-top: 80px;
+    height: auto; */
+
+}
+.content-trainer-1 h4{
+    color: rgb(255 239 213);
+    font-family: Arial;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.content-trainer-1 h1{
+    color: rgb(255 239 213);
+    font-family: Arial;
+    font-weight: 600;
+    font-size: xxx-large;
+}
+.content-trainer-1 h6{
+    color: rgb(255 239 213);
+    font-family: Arial;
+    font-size: large;
+}
+
+
+
+
+/* ye code yad rkhna he hamesha vertical karne ke lia kam aengi */
+
+.d-block{
+display: block;
+}
+.w-100{
+width: 100%;
+}
+.d-table-cell{
+display: table-cell;
+line-height: 55px;
+}
+.va-bottom{
+vertical-align: bottom;
+}
+.banner-height{
+    height: 90vh;
+}
+
+/* yahan tak */
+.join-us{
+    border: 2px solid orangered;
+    border-radius: 30px;  
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    margin: 27px 0px 0 7px;
+    text-align: center;
+ }
+ .join-us:hover{
+    cursor: pointer;
+ }
+ .join-us a{
+    font-weight: 600;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+
+ }
+.banner-icons i:hover{
+    background-color: orangered;
+    color: palegoldenrod;
+  
+    transition: all .3s ease 0s
+
+}
+.banner-icons i{
+    margin:0 1px;
+    color:rgb(255 69 0);
+    width:35px;
+    height:35px;
+    border: 1px solid rgb(88 88 88);
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px;
+
+}
+
+
+/* banner 2 */
+#banner-2{
+    background-color: white;
+}
+
+.content{
+    width: 50%;
+}
+.content h1{
+    font-family: Arial;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.content p{
+    font-family: Open Sans,sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(102 102 102);
+    font-weight: 400;
+    float:left;
+    padding-top: 30px;
+    
+}
+.for-image{
+    width: 48%;
+    float:right;
+}
+
+.banner-2-icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 18px;
+
+}
+.box{
+    width: 32%;
+    flex-direction: column;
+    border: 2px solid rgb(238 238 238);
+    padding: 20px 20px 10px 30px;
+    margin: 25px 20px 0px 20px;
+    height: 50px;
+
+}
+.box i{
+color: papayawhip;
+    width: 35px;
+    height: 35px;
+    border: 1px solid ;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px;
+    background-color: orangered;
+    
+}
+.box span{
+    font-family: arial;
+    font-weight: 400;
+    font-size: x-large;
+    padding: 5px 10px
+}
+.box p{
+    padding-left: 47px;
+  line-height: 0px;
+}
+/* banner 3 */
+#banner-3{
+    background-color: rgb(248 248 248);
+
+}
+
+.content-banner-3{
+    text-align:center ;
+    text-transform: capitalize;
+
+}
+.content-banner-3 h1  {
+    font-family: arial;
+    font-weight: 500;
+    font-size: 28px
+}
+
+.content-banner-3 p{
+    padding-top: 20px;
+    font-family: arial;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgb(128 128 128);
+}
+.line{
+    display: inline-block;
+    width: 50px;
+    border-bottom: 2px solid orangered;
+
+}
+.banner-3-slider{
+    display: flex;
+    width: 100%;
+    margin-left: 18px;
+}
+.box-slider{
+    width: 32%;
+    flex-direction: column;
+    border: 2px solid rgb(238 238 238);  
+      background-color: rgb(255 255 255);
+    margin: 35px 20px 0px 20px;
+}
+.slider-img{
+    width: 100%;
+    height: 200px;
+}
+.slider-content{
+    padding: 8px 0px 0px 15px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.box-slider p{ 
+       display: inline-block;
+       font-family: arial;
+       font-weight: 400;
+       font-size: 17px;
+       color: grey;
+}
+.box-slider i{
+color: grey;
+    }
+    .box-slider i:hover{
+        color: orangered;
+    }
+.slider-content h3{
+    font-family: arial;
+    font-weight: 500;
+    font-size: x-large;
+    }
+
+
+    /* banner-4 */
+
+.main-4{
+    padding-left: 40px;
+}
+.banner-content-4{
+    width: 38%;
+float: left;
+}
+.banner-img-4{
+    width: 60%;
+    float: right;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.banner-content-4 h1{
+    font-family: Arial;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.banner-content-4 p{
+    font-family: Open Sans,sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(102 102 102);
+    font-weight: 400;
+    float:left;
+    padding: 30px 0px 35px 0px;
+}
+.box-banner-4{
+    border: 1px solid rgb(224 224 224);
+    border-radius: 50px;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    text-transform: capitalize;
+   
+}
+.box-banner-4 span {
+    padding: 0px 0px 0px 20px;
+    line-height: 40px;
+    font-family: arial;
+    font-weight: 700;
+    font-size: small;
+   
+}
+.box-banner-4:hover{
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+  }
+
+.box-banner-4 i{
+    float:right;
+    padding: 12px 15px 0px 0px;
+    font-weight: 500;
+}
+
+/* banner-5 */
+#banner-5{
+    background-image: url(images/background-banner-5.jpg);
+    width: 100%;
+   
+    background-size: cover;
+    
+}
+.buttons{
+    text-align: center;
+    padding: 25px 0px;
+}
+.buttons button{
+    height: 40px;
+    width: auto;
+    border-radius: 50px;
+    border-style: none;
+    padding: 0px 35px;
+    margin: 18px 2px;
+    /* font-family: arial; */
+    /* font-weight: 400; */
+    /* font-size: medium;*/
+}
+.monday{
+    color: white;
+    background-color: rgb(251 91 33);
+
+}
+.buttons button:hover{
+    color: white;
+    background-color: rgb(251 91 33);
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+.karate{
+    width: 80%;
+    margin: 0px 0px 0px 20px;
+    padding-left: 100px;
+}
+.karate ul{
+    display: flex;
+    width: 100%;
+    background-color: rgb(251 91 33);
+    height: auto;
+    border-radius: 20px;
+    margin: 5px;
+    /* font-weight: 400;
+    font-family: arial;
+    font-size: medium; */
+}
+.karate ul li{
+    flex-direction: column;
+    color: rgb(255 255 255);
+    list-style-type: none;
+    width: 24.2%;
+    padding: 5px 25px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: arial;
+    font-size: 15px;
+}
+.join-now{
+    float: right;
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 15px;
+    color: rgb(102 102 102);
+    font-family: arial;
+}
+
+.join-now:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+
+/* banner-6 */
+
+.content-banner-6{
+    display: flex;
+    padding-top: 40px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.content-one{
+    width: 24.2%;
+    flex-direction: column;
+    
+}
+.picture img{
+    width: auto;
+    height: 250px;
+    border-radius: 50%;
+}
+.para{
+    text-align:center ;
+}
+.para h1{
+font-family: arial;
+font-weight: lighter;
+font-size: 20px;
+}
+.para p{
+    font-family: arial;
+font-weight: 400;
+font-size: 15px;
+color: rgb(102, 102, 102);
+line-height: 26px;
+
+}
+
+/* banner-7 */
+#banner-7{
+    background-image: url(images/banner-7-background-img.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.main-7{
+    display: flex;
+    padding: 0px 50px;
+}
+/* .content-banner-7{
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+    float: left;
+} */
+
+.radio-btn{
+color: white;
+font-family: arial;
+font-size: small;
+font-weight: 600;
+}
+.radio-btn label:hover{
+    cursor: pointer;
+}
+.weight-btn input{
+    background-color: rgb(0 0 0 / 0%);
+    border: 1px solid rgb(75 75 75);
+    border-radius: 90px;
+    color: rgb(102 102 102);
+    padding: 7px 20px 7px 10px;
+    width: 85px;
+    margin-right: 5px;
+}
+
+
+.table{
+    width: 40%;
+    float: right;
+    background-color: rgb(251 91 33 / 90%);
+    color: white;
+    border-radius: 25px;
+}
+.table ul{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.table ul li{
+    padding: 12px 0px 12px 20px;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid rgb(0 0 0 / 0%);
+}
+.table ul li.status{
+    font-size: 18px;
+    font-weight: 400;
+}
+.bmi{
+    width: 50%;
+    float: left;
+}
+.weight{
+    width: 50%;
+    float: right;
+}
+
+
+
+
+.main-8 h1{
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.ceo{
+    width: 48%;
+    display: flex;
+    margin: 60px 0px;
+}
+.img-banner-8{
+    width: 20%;
+}
+.banner-content-8{
+    width: 80%;
+    padding: 0px 40px;
+}
+.img-banner-8 img{
+    border-radius: 50%;
+}
+.banner-content-8 p{
+    font-family: arial;
+    font-size: medium;
+    font-weight: 400;
+    line-height: 25px;
+    color: grey;
+    padding-top:13px;
+}
+.ceo h3{
+    font-family: arial;
+    color: rgb(17 17 17);
+    font-size: 20px;
+    margin-right: 12%;
+}
+
+
+/* banner-9 */
+
+#banner-9{
+    background-image: url(images/backgroud-banner-9.jpg);
+    width: 100%;
+    height: 400px;
+}
+.main-9{
+    text-align: center;
+}
+.content-banner-9{
+   
+    display: inline-block;
+}
+.content-banner-9 h1{
+    color: rgb(255 255 255);
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 600;
+    word-spacing: -3px;
+    padding: 20px 0px;
+}
+.content-banner-9 h2{
+    text-align: left;
+    color: rgb(255 255 255);
+    font-family: arial;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.member{
+    border: 2px solid rgb(255 69 0);
+    border-radius: 30px;
+    width: 190px;
+    height: 50px;
+    font-size: 15px;
+    margin: 27px 0px 0 7px;
+    line-height: 45px;
+}
+.member a {
+    font-weight: 600;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.member:hover{
+    background-color: orangered;
+    transition-duration: 300ms;
+}
+#banner-9{
+
+}
+.heading-banner-9 h3{
+    font-weight: 500;
+    color: rgb(17 17 17);
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 0px 15px 10px;
+    text-align: left;
+}
+.heading-banner-9 p{
+    line-height:25px;
+    text-transform: initial;
+    font-size: 15px;
+    padding: 0px 0px 20px 10px;
+}
+
+/* banner-10 */
+#banner{
+    border-bottom: 1px solid grey;
+}
+.main-10 h1{
+    padding-bottom: 20px;
+}
+.form{
+    width: 45%;
+    float: left;
+}
+.form label input{
+    width: 90%;
+    height: 45px;
+    padding-left: 15px;
+    margin: 20px 0px 0px 40px;
+    border: 1px solid rgb(204 204 204);
+}
+ .form textarea {
+    border: 1px solid rgb(231 231 231);
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 71px;
+    margin: 20px 0px 0px 40px;
+    padding-left: 15px;
+    width: 90%;
+    
+}
+.form button{
+    width: 94%;
+    height: 60px;
+    border-style: none;
+    font-size: 18px;
+    color: rgb(102 102 102);
+    font-family: arial;
+    margin: 20px 0px 0px 40px;
+    background-color: orangered;
+    color: white;
+}
+.form button:hover {
+    color: white;
+    background-color: rgb(0 0 0);
+    cursor: pointer;
+    transition-duration: 400ms;
+  }
+.map{
+    width: 50%;
+    float: right;
+    
+}
+.map iframe{
+    display: block;
+}
+
+#banner-11{
+
+}
+.main-11{
+    display: flex;
+    
+}
+.logos{
+    width: 24%;
+    text-align: -webkit-right;
+   
+}
+.logos:hover{
+    box-shadow: 0px 0px 4px 0px #888888;
+    cursor: pointer; 
+}
+
+.logos img{
+    width: 80%;
+}
+
+/* banner-12 */
+footer{
+    background-color: rgb(18 18 18);
+    
+}
+
+.main-12{
+  display: flex;
+}
+.content-12{
+    width: 33%;
+    flex-direction: column;
+    line-height: 70px;
+    margin: 0px 40px;
+    font-family: arial;
+    
+}
+.content-12 h1{
+    color: white;
+    color: rgb(255 255 255);
+    font-weight: 600;
+    font-family: arial;
+    font-size: 25px;
+}
+.footer-about p {
+    font-family: arial;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(102 102 102);
+  }
+
+
+  .footer-about-icons i{
+color: white;
+background-color: orangered;
+  }
+.footer-about-icons i:hover{
+    color: orangered;
+    background-color:white ;
+  }
+
+
+.gallery{
+    display: flex
+}
+
+.mango{
+   
+    width: 32%;
+    margin: 1%;
+}
+.footer-col-image{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+}
+
+.footer-office i{
+color: orangered;
+padding: 0px 12px 0px 0px;
+}
+.footer-office ul li a{
+    text-decoration: none;
+    color: rgb(102 102 102);
+}
+.footer-office ul li{
+    list-style-type: none;
+    color: rgb(102 102 102);
+    line-height: 40px;
+}
+.copyright{
+    text-align:center ;
+background-color: black;
+}
+.copyright h6{
+    color: rgb(255 255 255);
+    padding: 25px 0px;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
